@@ -1,0 +1,28 @@
+<html lang="en">
+
+ <table border=1>
+
+   <table border=1 bgcolor=yellow >
+  <tr>
+  <td rowspan=2>Name</td>
+  <td colspan=2>Marks</td>
+  </tr>
+
+ <tr>
+	<td>sub1</td>
+	<td>sub2</td>
+ </tr>
+
+ <tr>
+	<td>Alisha</td>
+	<td>45</td>
+	<td>42</td>
+ </tr>
+
+  <tr>
+	<td>Sameer</td>
+	<td>45</td>
+	<td>42</td>
+ </tr>
+</html>
+

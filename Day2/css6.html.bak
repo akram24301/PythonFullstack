@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+ <head>
+
+  <style>
+  p.center{
+	text-align:center;
+	color:red;
+  }
+  p.large{
+
+  </style>
+
+  
+
+ </head>
+ <body>
+	<h1 class="center">These Headings will not be effected</h1>
+	<p class="center">These paragraph will be red and center-aligned</p>
+	<p class="center large">These paragraph will be red and center-aligned,and in large font-size</p>
+
+ </body>
+</html>
+

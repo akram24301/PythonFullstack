@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+ <head>
+
+  <title>Document</title>
+ </head>
+ <body>
+  
+	<table border=1>
+	<tr>
+		<td> <img src="M:\HTML\images\tajmahal.png" height= "100px" width="100px" </td>
+		<td><img src="M:\HTML\images\redfort.png" height= "100px" width="100px"</td>
+		<td><img src="M:\HTML\images\hawamahaljaipur.png" height= "100px" width="100px"</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	</table>
+
+
+
+ </body>
+</html>

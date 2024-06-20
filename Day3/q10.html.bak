@@ -1,0 +1,14 @@
+
+<html lang="en">
+
+<body bgcolor=pink>
+
+<p><a href="ap.html" target="iframe_a">1.Andhra Pradesh</a></p>
+<p><a href="ts.html" target="iframe_a">1.Telangana</a></p>
+
+
+<iframe align="right" width="50%" height="100%" src="new.html" name="iframe_a"></iframe>
+
+</body.
+
+</html>

@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+ <head>
+
+  <style>
+  .center{
+	text-align:center;
+	color:red;
+  }
+  </style>
+
+  
+
+ </head>
+ <body>
+	<h1 id="a" class="center">Red and center-aligned headings</h1>
+	<p class="center">Red and center-aligned paragraph</p>
+
+ </body>
+</html>

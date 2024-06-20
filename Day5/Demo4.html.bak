@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+ <head>
+<link rel="stylesheet" href="mystyle.css">
+ <style>  body{background-color:linen;}
+ </style>
+ </head>
+ <body style="background-color:lavender">
+  
+
+  <h1>Mutliple styles will be cascade in to One </h1>
+  <p>Here the background of the page is set with inline CSS,and aloso with a internal CSS,and also with an external CSS</p>
+  <p>Try experimenting by removing styles to see how the cascading style sheets work(try removing the internal css)</p>
+ </body>
+</html>

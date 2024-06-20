@@ -1,0 +1,57 @@
+<!doctype html>
+ <head>
+
+  <title>register</title>
+ </head>
+ <body>
+	<img src="google.png" height=60px width=80px>
+  <h1 > Create your Goolge account</h1>
+  <form style="border:1px solid #ccc" background->
+  <div>
+		
+	<label name="fn"><b>First name<b></label> <input type="text" required>
+	<label name="ln"><b>Last name<b></label> <input type="text" required>
+
+	<br>
+	<br>
+
+    <label name="username"><b>username</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required> <b>@gmail.com<b>
+	<br>
+	<br>
+
+    <label name="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+	<label name="psw"><b>Confirm Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+	<br>
+	<br>
+	<label name="ph"><b>phone  </b>
+	<input type="text" placeholder="enter phone" required>
+	<br>
+	<br>
+
+	<label name="dob">Date of birth</label>
+	<input type="date" >
+
+	<br>
+	<br>
+
+	<label name="gender">Select gender
+	<input type="radio" name="gender" value="male"> Male
+	<input type="radio" name="gender" value="female"> Female
+
+
+
+    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  </div>
+</form>
+ </body>
+</html>

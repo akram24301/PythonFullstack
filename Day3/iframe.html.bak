@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  
+  <title>Document</title>
+ </head>
+ <body>
+	
+		<h2>iframe Target for a Link<h2>
+		<p><a href="https://www.mtimca.edu.in/" target="iframe_a"> college</a></p>
+		<p><a href="https://www.ap.gov.in/" target="iframe_a"> AP</a></p>
+
+		<p> The name of iframes and link target must have same value else link will not open as frame. </p>
+
+		<iframe height="100% width="50%" src="" name="iframe_a"></frame>
+ </body>
+</html>
