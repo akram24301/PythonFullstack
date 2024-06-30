@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+
+    {% for product in products %}
+   
+    <h5>{{ product.name }}</h5>
+    <h5>{{ product.price }}</h5>    
+    <p>{{ product.description }}</p>
+    <img src="{{ product.cover.url }}"width='300'/>
+
+    {% endfor %}
+    
+</body>
+</html>
