@@ -1,0 +1,14 @@
+{% extends "master.html" %}
+{% block title %}
+Students
+{% endblock %}
+{% block content%}
+<body>
+    <h1>Students</h1>
+    <ul>
+        {% for x in allstu %}
+        <li>{{ x.fn }} {{ x.ln }}</li>
+        <li>{{ x.course }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

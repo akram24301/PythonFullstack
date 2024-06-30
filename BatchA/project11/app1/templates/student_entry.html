@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Entry</title>
+</head>
+<body>
+    <h2>Student Entry Form</h2>
+
+    <form method="post" action="{% url 'process_student_entry' %}">
+        {% csrf_token %}
+        <label for="first_name">First Name:</label>
+        <input type="text" name="fn" required>
+        <br>
+        <label for="last_name">Last Name:</label>
+        <input type="text" name="ln" required>
+        <br>
+        <label for="course">Course:</label>
+        <input type="text" name="course" required>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    
+</body>
+</html>

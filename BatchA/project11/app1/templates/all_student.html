@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Students</h1>
+    <ul>
+        {% for x in allstu %}
+        <li>{{ x.fn }} {{ x.ln }}</li>
+        <li>{{ x.course }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Teachers</h1>
+    <ul>
+        {% for x in allteach %}
+        <li>{{ x.fn }} {{ x.ln }}</li>
+        <li>{{ x.sub }}</li>
+        <li>{{ x.loc }}</li>
+        <li>{{ x.sal }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

@@ -1,0 +1,17 @@
+
+
+<html>
+	<body bgcolor="#FA8072">
+		<form method="POST" enctype="multipart/form-data">
+
+			<!-- Security token -->
+			{% csrf_token %}
+		
+			<!-- Using the formset -->
+			{{ form.as_p }}
+			
+			<input style="background: blanchedalmond;" 
+			type="submit" value="Submit">
+		</form>
+	</body>
+</html>

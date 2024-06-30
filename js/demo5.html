@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <script type="text/javascript">
+        function printTable(){
+            n=parseInt(document.getElementById("txtFirstNumber").value);
+            var i=0;
+            for(i=0;i<=10;i++){
+                document.write(n+"*"+i+"="+n*i)
+                document.write("</br>");
+            }
+
+        }
+    </script>
+
+<body>
+    <p>Enter Number for Table: <input id="txtFirstNumber"></p>
+    <button onclick="printTable()">print</button>
+</body>
+</html>
